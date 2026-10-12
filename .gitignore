@@ -1,0 +1,57 @@
+# =====================================================================
+#  .gitignore — чат-бот «Алина» (Zerocoder + GigaChat + VK)
+# =====================================================================
+
+# --- Секреты и переменные окружения ---
+.env
+.env.*
+!.env.example
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+.python-version
+
+# --- Виртуальные окружения ---
+.venv/
+venv/
+env/
+ENV/
+
+# --- Тесты, покрытие и линтеры ---
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+.tox/
+.nox/
+
+# --- Редакторы и ОС ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# --- Логи ---
+*.log
+logs/
+
+# --- Исходные и временные документы (не часть кода) ---
+*.docx
+~$*
+*.bak
+*.tmp
+
+# --- Прочее ---
+*.pid
+*.orig
+*.rej

@@ -1,0 +1,20 @@
+# Нормализация переводов строк: в репозитории — LF, в рабочей копии — по ОС.
+* text=auto
+
+# Явно текстовые файлы
+*.py     text
+*.md     text
+*.txt    text
+*.yml    text
+*.yaml   text
+*.ini    text
+*.crt    text
+*.toml   text
+
+# Явно бинарные (на будущее)
+*.png    binary
+*.jpg    binary
+*.jpeg   binary
+*.gif    binary
+*.pdf    binary
+*.docx   binary
